@@ -24,10 +24,10 @@ Student project on creating a single page website using responsive technique.
 The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
 
 **Techniques**
-Attempted to use css flex-box to create a grid layout to function on desktops, laptops, tablet and mobile devices. Created site using BEM methodology.
+ *Attempted to use css flex-box to create a grid layout to function on desktops, laptops, tablet and mobile devices. Created site using BEM methodology.
 
 **Technologies** 
-CSS
-Html 
-GitHub
+*CSS
+*Html 
+*GitHub
 
