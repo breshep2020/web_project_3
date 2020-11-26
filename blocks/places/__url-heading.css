@@ -1,0 +1,16 @@
+.places__url-heading { 
+    font-size: 12px;
+    line-height: 12px;
+    color: #aaaaaa; 
+    margin: 0;  
+}
+
+
+
+
+@media screen and (max-width: 425px){
+    .places__url-heading {
+       color: #2A2C2F;
+         
+    }
+ }

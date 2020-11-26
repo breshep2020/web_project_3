@@ -1,0 +1,24 @@
+.lead__mountains {
+    max-height: 615px;
+    max-width:  984px;
+    margin: 0 auto;
+
+}
+
+@media screen and (max-width: 1020px){
+    .lead__mountains {  
+        width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 768px){
+    .lead__mountains {
+        width: 100%;
+    }
+  } 
+  
+  @media screen and (max-width: 425px){
+      .lead__mountains{
+        width: 100%;      
+      }
+  }

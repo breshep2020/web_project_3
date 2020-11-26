@@ -1,0 +1,31 @@
+.intro__photo-grid{
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
+    grid-template-rows: repeat(3, auto);
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px){
+    .intro__photo-grid{
+       grid-gap: 14px;
+       max-width: 930px;
+    }  
+}
+
+@media screen and (max-width: 768px){
+ .intro__photo-grid {
+    grid-gap: 16px;
+    margin: 0 26px;
+ }
+}
+
+@media screen and (max-width: 425px){
+    .intro__photo-grid {
+        grid-gap: 10px;
+        margin: 0 10px 40px 10px;
+        padding: 0;
+        
+   }
+}

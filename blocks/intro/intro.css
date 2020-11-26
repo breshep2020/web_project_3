@@ -1,0 +1,42 @@
+@import url(../intro/__title.css);
+@import url(../intro/__subtitle.css);
+@import url(../intro/__paragraph.css);
+@import url(../intro/__travel-list.css);
+@import url(../intro/__photo-grid.css);
+@import url(../intro/__gallery.css);
+@import url(../intro/__gallery-image.css);
+@import url(../intro/__list-items.css);
+
+
+
+
+
+
+
+
+.intro {
+    max-width: 690px;
+    justify-content: left;
+    margin: 120px 92px 148px 201px;
+}
+
+
+
+@media screen and (max-width: 1024px){
+    .intro{
+        margin: 92px 286px 92px 48px
+    }  
+}
+
+@media screen and (max-width: 768px){
+ .intro {
+     margin: auto;
+ }
+}
+
+@media screen and (max-width: 425px){
+    .intro {
+        margin: 0px 10px 0px 10px;
+        
+   }
+}

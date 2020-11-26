@@ -1,0 +1,25 @@
+.places__site{
+    align-self: flex-end;
+    margin-bottom: 40px;
+}
+
+
+@media screen and (max-width: 1024px){
+    .places__site{
+         max-width: 920px;
+         margin-bottom: 40px;
+     }  
+ }
+ 
+ @media screen and (max-width: 768px){
+ .places__site{
+   
+  }
+ }
+ 
+ @media screen and (max-width: 425px){
+    .places__site {
+        max-width: 288px;
+        
+    }
+}

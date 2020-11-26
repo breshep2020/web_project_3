@@ -1,0 +1,39 @@
+@import url(../lead/__title.css);
+@import url(../lead/__subtitle.css);
+@import url(../lead/__mountains.css);
+@import url(../lead/__mountains-caption.css);
+
+
+
+
+
+.lead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 1005px;
+    max-width: 984px;
+    margin: auto;
+    border-radius: 0px;
+}
+
+
+@media screen and (max-width: 1020px){
+    .lead {  
+        max-width: 928px;
+    }
+  }
+  
+  @media screen and (max-width: 768px){
+    .lead {
+        max-width: 768px;  
+    }
+  } 
+  
+  @media screen and (max-width: 425px){
+      .lead{
+          max-width: 400px;         
+      }
+  }
+
+

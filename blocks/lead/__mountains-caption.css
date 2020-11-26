@@ -1,0 +1,32 @@
+.lead__mountains-caption {
+    height: 14px;
+    width: 182px;
+    margin: 8px auto auto 51px;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+ 
+}
+
+  
+@media screen and (max-width: 768px){
+    .lead__mountains-caption {
+        margin-left: 20px;
+    }
+  } 
+  
+  @media screen and (max-width: 425px){
+      .lead__mountains-caption{
+        margin-left: 10px; 
+        font-family: Inter;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+       
+      }
+  }
+
