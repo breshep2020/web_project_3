@@ -10,7 +10,7 @@
     display: flex;
     margin: 0 auto;
     padding: 20px;
-    max-width: 1180px; 
+    max-width: 1180px;
 }
 
 @media screen and (max-width: 1020px){
@@ -21,15 +21,15 @@
 
 @media screen and (max-width: 768px){
   .footer {
-      margin: 0 24px 0; 
-      max-width: 768px;  
+      margin: 0 24px 0;
+      max-width: 768px;
   }
 } 
 
 @media screen and (max-width: 425px){
     .footer {
         flex-direction: column;
-        margin-left: 16px; 
+        margin-left: 16px;
         padding-top: 35px;
         padding: 0;
     }
