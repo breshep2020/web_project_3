@@ -2,13 +2,14 @@
     color: white;
     min-height: 740px;
     display: flex;
-    background-image: url(/sprint-3-images-en/cover-routes-six-six.jpg);
+    background-image: url(/sprint-3-images-en/route-six-six.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-decoration: none;
+    position: relative;
 }
 
 a.cover__link:after {
@@ -19,11 +20,10 @@ a.cover__link:after {
     top: 0;
     left: 0;
     background: #2A2C2F;
-    opacity: 0.3;
-    
+    opacity: 0.3;  
 }
 
-a.cover__link:hover:after{
+a.cover__link:hover:after {
     opacity: .8;
     transition-duration: .5s;
 }
@@ -43,12 +43,5 @@ a.cover__link:hover:after{
         margin-bottom: 64px;
         box-sizing: content-box;
         width: 100%;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .cover__link{
-       
-       
     }
 }

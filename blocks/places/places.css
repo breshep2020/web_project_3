@@ -1,25 +1,9 @@
-@import url(../places/__title.css);
-@import url(../places/__link.css);
-@import url(../places/__sites.css);
-@import url(../places/__paragraphs.css);
-@import url(../places/__text.css);
-@import url(../places/__url-heading.css);
-@import url(../places/__image.css);
-@import url(../places/__states.css);
-
-
-
-
-
-
-
 .places{
     display: flex;
     margin: 68px 92px 68px  92px;
     flex-direction: column;
     row-gap: 60px;
     max-width: 980px;
-
 }
 
 @media screen and (max-width: 425px){
