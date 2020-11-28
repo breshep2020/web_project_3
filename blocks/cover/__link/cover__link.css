@@ -3,6 +3,7 @@
     min-height: 740px;
     display: flex;
     background-image: url(/sprint-3-images-en/route-six-six.jpg);
+    /*github does not recognized image*/
     background-size: 100% 100%;
     background-repeat: no-repeat;
     justify-content: center;
