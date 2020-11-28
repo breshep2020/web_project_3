@@ -1,7 +1,7 @@
-@import url(../lead/__title.css);
-@import url(../lead/__subtitle.css);
-@import url(../lead/__mountains.css);
-@import url(../lead/__mountains-caption.css);
+@import url(./__title/lead__title.css);
+@import url(./__subtitle/lead__subtitle.css);
+@import url(./__mountains/lead__mountains.css);
+@import url(./__mountains-caption/lead__mountains-caption.css);
 
 
 

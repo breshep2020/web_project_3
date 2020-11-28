@@ -1,4 +1,4 @@
-.places__text{
+.place__text{
     max-width: 100%;
     font-family: Inter;
     font-size: 18px;
@@ -13,14 +13,14 @@
 }
 
 @media screen and (max-width: 768px){
-    .places__text{
+    .place__text{
         font-size: 16px;
 
      }
     }
     
     @media screen and (max-width: 425px){
-       .places__text {
+       .place__text {
         max-width: 300px;
         margin-left: 30px;      
        }

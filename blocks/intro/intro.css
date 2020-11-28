@@ -1,18 +1,9 @@
-@import url(../intro/__title.css);
-@import url(../intro/__subtitle.css);
-@import url(../intro/__paragraph.css);
-@import url(../intro/__travel-list.css);
-@import url(../intro/__photo-grid.css);
-@import url(../intro/__gallery.css);
-@import url(../intro/__gallery-image.css);
-@import url(../intro/__list-items.css);
-
-
-
-
-
-
-
+@import url(./__title/intro__title.css);
+@import url(./__subtitle/intro__subtitle.css);
+@import url(./__paragraph/intro__paragraph.css);
+@import url(./__travel-list/intro__travel-list.css);
+@import url(./__list-item/intro__list-item.css);
+@import url(./__list-items/intro__list-items.css);
 
 .intro {
     max-width: 690px;
