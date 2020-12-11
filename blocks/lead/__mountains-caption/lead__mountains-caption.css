@@ -2,7 +2,7 @@
     height: 14px;
     width: 182px;
     margin: 8px auto auto 51px;
-    font-family: Inter;
+    font-family: 'Inter', 'Arial', sans-serif;
     font-size: 10px;
     font-style: normal;
     font-weight: 400;
@@ -22,7 +22,7 @@
   @media screen and (max-width: 425px){
       .lead__mountains-caption{
         margin-left: 10px;
-        font-family: Inter;
+        font-family: 'Inter', 'Arial', sans-serif;
         font-size: 10px;
         font-style: normal;
         font-weight: 400;
