@@ -4,8 +4,19 @@
   margin: 0 auto;
 }
 
+
+@media screen and (max-width: 1024px) {
+  .lead__mountains {
+    margin-left: 48px;
+    margin-right: 48px;
+    max-width: 928px;
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   .lead__mountains {
     width: auto;
   }
 }
+

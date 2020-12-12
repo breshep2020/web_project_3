@@ -1,4 +1,33 @@
 .place__paragraphs {
     display: block;
+    max-width: 456px;
 }
 
+@media screen and (max-width: 1024px){
+    .place__paragraphs {
+        width: 456px;
+     }  
+ }
+
+
+ 
+@media screen and (max-width: 768px){
+    .place__paragraphs {
+        width: 340px; 
+        display: block;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font: 18px;
+ }
+}
+
+
+
+
+ 
+@media screen and (max-width: 425px){
+    .place__paragraphs {
+       max-width: 288px;
+       margin-bottom: 20px;
+ }
+}

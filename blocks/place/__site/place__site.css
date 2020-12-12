@@ -10,6 +10,17 @@
     }
 }
 
+
+@media screen and (max-width: 768px) {
+    .place__site {
+        max-width: 352px;
+        margin-bottom: 40px;
+     
+    }
+}
+
+
+
 @media screen and (max-width: 425px) {
     .place__site {
         max-width: 288px;
