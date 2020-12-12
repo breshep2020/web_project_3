@@ -12,7 +12,7 @@
     position: relative;
 }
 
-a.cover__link:after {
+.cover__link:after {
     content: "";
     width: 100%;
     height: 100%;
@@ -23,7 +23,7 @@ a.cover__link:after {
     opacity: 0.3;  
 }
 
-a.cover__link:hover:after {
+.cover__link:hover:after {
     opacity: .8;
     transition-duration: .5s;
 }
@@ -33,9 +33,6 @@ a.cover__link:hover:after {
         min-height: 480px;
     }
 }
-
-
-
 
 @media screen and (max-width: 425px) {
     .cover__link{

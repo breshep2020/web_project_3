@@ -1,21 +1,17 @@
-.place__site{
+.place__site {
     align-self: flex-end;
     margin-bottom: 50px;
 }
 
+@media screen and (max-width: 1024px) {
+    .place__site {
+        max-width: 920px;
+        margin-bottom: 40px;
+    }
+}
 
-@media screen and (max-width: 1024px){
-    .place__site{
-         max-width: 920px;
-         margin-bottom: 40px;
-     }  
- }
- 
-
- 
- @media screen and (max-width: 425px){
+@media screen and (max-width: 425px) {
     .place__site {
         max-width: 288px;
-        
     }
 }

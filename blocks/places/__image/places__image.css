@@ -1,13 +1,9 @@
-.places__image{
-    width: 100%;
+.places__image {
     margin: 0 auto;
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 425px) {
     .places__image {
-         width: 100%;
-         margin: 0 0 32px 25px;
-
-           
+        margin: 0 0 32px 25px;
     }
- }
+}
