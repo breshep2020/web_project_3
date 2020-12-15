@@ -3,10 +3,6 @@
 @import url(./__mountains/lead__mountains.css);
 @import url(./__mountains-caption/lead__mountains-caption.css);
 
-
-
-
-
 .lead {
     display: flex;
     flex-direction: column;
@@ -16,23 +12,20 @@
     border-radius: 0px;
 }
 
-
-@media screen and (max-width: 1020px){
-    .lead {  
+@media screen and (max-width: 1020px) {
+    .lead {
         max-width: 928px;
     }
-  }
-  
-  @media screen and (max-width: 768px){
+}
+
+@media screen and (max-width: 768px) {
     .lead {
-        max-width: 768px;  
+        max-width: 768px;
     }
-  } 
-  
-  @media screen and (max-width: 425px){
-      .lead{
-          max-width: 400px;         
-      }
-  }
+}
 
-
+@media screen and (max-width: 425px) {
+    .lead {
+        max-width: 400px;
+    }
+}

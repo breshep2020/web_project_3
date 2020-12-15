@@ -1,10 +1,6 @@
-.header__lang-link{
+.header__lang-link {
     color: #ffffff;
-<<<<<<< HEAD
     font-family: 'Inter', Arial, sans-serif;
-=======
-    font-family: 'Inter', 'Arial', sans-serif;
->>>>>>> 699d2f127f8a679b1f3d5f09f34573e5718774cf
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -14,11 +10,17 @@
     text-decoration: none;
 }
 
-@media screen and (max-width: 768px){
-    .header__lang-link{
+.header__lang-link:hover {
+    opacity: .8;
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-link {
         font-size: 18px;
-        line-height: 1.33;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: right;
+        
     }
-   }
-
-
+}

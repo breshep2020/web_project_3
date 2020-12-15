@@ -1,4 +1,4 @@
-.cover__link{
+.cover__link {
     color: white;
     min-height: 740px;
     display: flex;
@@ -20,7 +20,7 @@
     top: 0;
     left: 0;
     background: #2A2C2F;
-    opacity: 0.3;  
+    opacity: 0.3;
 }
 
 .cover__link:hover:after {
@@ -28,23 +28,20 @@
     transition-duration: .5s;
 }
 
-
 @media screen and (max-width: 1024px) {
-    .cover__link{
+    .cover__link {
         min-height: 640px;
     }
 }
 
-
-
 @media screen and (max-width: 768px) {
-    .cover__link{
+    .cover__link {
         min-height: 480px;
     }
 }
 
 @media screen and (max-width: 425px) {
-    .cover__link{
+    .cover__link {
         min-height: 368px;
         margin-bottom: 64px;
         box-sizing: content-box;

@@ -7,17 +7,15 @@
     text-align: left;
 }
 
-
-@media screen and (max-width:768px){
-    .intro__paragraph{
+@media screen and (max-width:768px) {
+    .intro__paragraph {
         max-width: 720px;
     }
 }
 
-@media scren and (max-width:425px){
-    .intro__paragraph{
-        max-width: 200px;
-        margin: 0 auto 30px;
-
+@media screen and (max-width:425px) {
+    .intro__paragraph {
+        max-width: 288px;
+        margin-left: 2px;
     }
 }

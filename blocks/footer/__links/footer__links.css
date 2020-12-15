@@ -3,14 +3,11 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 425px) {
     .footer__links {
         flex-direction: column;
-        margin-left: 16px;
-        margin: 20px auto;
+        margin: 0 0 0 0;
     }
 }
-
