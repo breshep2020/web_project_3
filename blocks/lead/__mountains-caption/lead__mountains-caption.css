@@ -8,16 +8,20 @@
   text-align: left;
   text-transform: uppercase;
   letter-spacing: 0.15em;
+  max-width: 183px;
 }
 
 @media screen and (max-width: 1024px) {
   .lead__mountains-caption {
-    margin-left: 45px;
+    margin-left: 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead__mountains-caption {
-    margin-left: 65px;
+    padding-left: 20px;
   }
 }
+
+
+

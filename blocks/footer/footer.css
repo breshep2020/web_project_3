@@ -5,8 +5,8 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    margin: auto;
-    padding: 20px;
+    margin: 0 auto;
+    padding: 24px;
     max-width: 1184px;
 }
 
@@ -18,10 +18,8 @@
 
 @media screen and (max-width: 768px) {
     .footer {
-        margin: auto;
+        margin: 0 24px 0;
         max-width: 720px;
-        
-
     }
 }
 
@@ -31,5 +29,6 @@
         margin-left: 16px;
         padding-top: 35px;
         padding: 0;
+        max-width: 168px;
     }
 }
