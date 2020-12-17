@@ -1,25 +1,23 @@
-.lead__mountains {
+.lead__mountains-photo {
   max-height: 615px;
-  max-width: 984px;
+  width: 100%;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
-  .lead__mountains {
-    margin-left: 48px;
-    margin-right: 48px;
+  .lead__mountains-photo{
     max-width: 928px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .lead__mountains {
+  .lead__mountains-photo{
     max-width: 768px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .lead__mountains {
+  .lead__mountains-photo{
     max-width: 320px;
   }
 }

@@ -1,7 +1,8 @@
 @import url(./__title/lead__title.css);
 @import url(./__subtitle/lead__subtitle.css);
-@import url(./__mountains/lead__mountains.css);
+@import url(./__mountains/lead__mountains-photo.css);
 @import url(./__mountains-caption/lead__mountains-caption.css);
+@import url(./__image/lead__image.css);
 
 .lead {
     display: flex;

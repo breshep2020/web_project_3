@@ -8,22 +8,8 @@
     margin: 0;
 }
 
-
-/*
-@media screen and (max-width: 1020px) {
-    .footer__author {
-        line-height: 14px;
-        text-align: left;
-        margin-left: 46px;
-    
-    }
-}
-*/
-
-
 @media screen and (max-width: 425px) {
     .footer__author {
-        margin-top: 16px;
-        
+        margin-bottom: 15px;
     }
 }
