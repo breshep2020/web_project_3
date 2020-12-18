@@ -1,5 +1,4 @@
 .place__text {
-    max-width: 100%;
     font-family: 'Inter', Arial, sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -7,7 +6,7 @@
     line-height: 1.67;
     margin: 0 25px 40px 25px;
     color: #FFFFFF;
-    max-width: 484px ;
+    max-width: 484px;
 }
 
 
