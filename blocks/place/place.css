@@ -4,6 +4,7 @@
 @import url(./__text/place__text.css);
 @import url(./__url-heading/place__url-heading.css);
 @import url(./__image/place__image.css);
+
 .place {
     display: grid;
     grid-template-columns: minmax(auto, 1fr) auto;
@@ -20,7 +21,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 860px) {
     .place {
         grid-template-columns: 345px 1fr;
         max-width: 720px;

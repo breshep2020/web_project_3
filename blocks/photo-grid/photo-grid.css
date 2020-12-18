@@ -1,6 +1,5 @@
 @import url(./__gallery-image/photo-grid__gallery-image.css);
 @import url(./__gallery/photo-grid__gallery.css);
-
 .photo-grid {
     display: grid;
     grid-gap: 16px;
@@ -16,9 +15,6 @@
     .photo-grid {
         grid-gap: 14px;
         max-width: 928px;
-        margin-bottom: 45px;
-        margin-left: 48px;
-        margin-right: 48px;
     }
 }
 
