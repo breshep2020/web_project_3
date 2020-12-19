@@ -9,6 +9,7 @@
     margin: 0 auto;
     list-style: none;
     padding: 0;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
@@ -29,7 +30,7 @@
 @media screen and (max-width: 320px) {
     .photo-grid {
         grid-gap: 10px;
-        margin: 0 15px 40px 15px;
+        margin: 64px 16px 40px 16px;
         max-width: 288px;
     }
 }

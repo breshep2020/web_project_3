@@ -9,7 +9,6 @@
   text-align: left;
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  max-width: 183px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -20,6 +19,6 @@
 
 @media screen and (max-width: 768px) {
   .lead__mountains-caption {
-    padding-left: 20px;
+    padding-left: 16px;
   }
 }

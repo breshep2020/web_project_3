@@ -42,7 +42,7 @@
 
 @media screen and (max-width: 425px) {
     .cover__link {
-        min-height: 368px;
+        min-height: 200px;
         margin-bottom: 64px;
         box-sizing: content-box;
     }

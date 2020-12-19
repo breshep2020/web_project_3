@@ -4,11 +4,13 @@
 @import url(./__text/place__text.css);
 @import url(./__url-heading/place__url-heading.css);
 @import url(./__image/place__image.css);
+@import url(./__paragraphs/place__paragraphs.css);
 
 .place {
     display: grid;
     grid-template-columns: minmax(auto, 1fr) auto;
     grid-auto-rows: auto auto;
+    grid-column-gap: 40px;
     margin: 92px auto 92px;
     box-sizing: border-box;
     max-width: 984px;
@@ -16,21 +18,21 @@
 
 @media screen and (max-width: 1024px) {
     .place {
-        grid-template-columns: 454px 1fr;
         max-width: 928px;
     }
 }
 
 @media screen and (max-width: 860px) {
     .place {
-        grid-template-columns: 345px 1fr;
         max-width: 720px;
         margin: auto;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 529px) {
     .place {
         grid-template-columns: 1fr;
+        max-width: 320px;
+        margin: 64px auto 64px;
     }
 }
