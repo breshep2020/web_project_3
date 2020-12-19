@@ -10,16 +10,13 @@
 
 @media screen and (max-width: 860px) {
     .place__paragraphs {
-        max-width: 352px ;
+        max-width: 352px;
         margin-bottom: 30px;
-       
     }
 }
 
-
 @media screen and (max-width: 425px) {
     .place__paragraphs {
-        max-width: 288px ;
-       
+        max-width: 288px;
     }
 }
