@@ -16,6 +16,7 @@
     .photo-grid {
         grid-gap: 14px;
         max-width: 928px;
+        margin-bottom: 92px;
     }
 }
 
@@ -23,7 +24,6 @@
     .photo-grid {
         grid-gap: 16px;
         max-width: 720px;
-        margin: auto auto 55px auto;
     }
 }
 

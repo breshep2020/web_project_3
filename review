@@ -1,0 +1,166 @@
+diff --git a/blocks/lead/__title/lead__title.css b/blocks/lead/__title/lead__title.css
+index 6c7a7d1..0b77f20 100644
+--- a/blocks/lead/__title/lead__title.css
++++ b/blocks/lead/__title/lead__title.css
+@@ -10,7 +10,7 @@
+     max-width: 720px;
+ }
+-@media screen and (max-width: 425px) {
++@media screen and (max-width: 440px) {
+     .lead__title {
+         max-width: 390px;
+         font-size: 40px;
+diff --git a/blocks/place/__paragraphs/place__paragraphs.css b/blocks/place/__paragraphs/place__paragraphs.css
+index 00535f1..e69de29 100644
+--- a/blocks/place/__paragraphs/place__paragraphs.css
++++ b/blocks/place/__paragraphs/place__paragraphs.css
+@@ -1,22 +0,0 @@
+-.place__paragraphs {
+-    width: 484px;
+-}
+-
+-@media screen and (max-width: 1024px) {
+-    .place__paragraphs {
+-        max-width: 456px;
+-    }
+-}
+-
+-@media screen and (max-width: 860px) {
+-    .place__paragraphs {
+-        max-width: 352px;
+-        margin-bottom: 30px;
+-    }
+-}
+-
+-@media screen and (max-width: 425px) {
+-    .place__paragraphs {
+-        max-width: 288px;
+-    }
+-}
+\ No newline at end of file
+diff --git a/blocks/place/__site/place__site.css b/blocks/place/__site/place__site.css
+index fda68e9..03d3954 100644
+--- a/blocks/place/__site/place__site.css
++++ b/blocks/place/__site/place__site.css
+@@ -2,22 +2,3 @@
+     align-self: flex-end;
+     margin-bottom: 50px;
+ }
+-
+-@media screen and (max-width: 1024px) {
+-    .place__site {
+-        max-width: 920px;
+-        margin-bottom: 40px;
+-    }
+-}
+-
+-@media screen and (max-width: 768px) {
+-    .place__site {
+-        max-width: 352px;
+-    }
+-}
+-
+-@media screen and (max-width: 425px) {
+-    .place__site {
+-        max-width: 288px;
+-    }
+-}
+\ No newline at end of file
+diff --git a/blocks/place/__text/place__text.css b/blocks/place/__text/place__text.css
+index 13fe71a..b03a7de 100644
+--- a/blocks/place/__text/place__text.css
++++ b/blocks/place/__text/place__text.css
+@@ -8,16 +8,9 @@
+     max-width: 100%;
+ }
+-@media screen and (max-width: 1024px) {
+-    .place__text {
+-        max-width: 456px;
+-    }
+-}
+-
+ @media screen and (max-width: 768px) {
+     .place__text {
+         font-size: 16px;
+-        max-width: 352px;
+         margin: 0 0 25px 0;
+     }
+ }
+@@ -25,7 +18,5 @@
+ @media screen and (max-width: 425px) {
+     .place__text {
+         line-height: 26.08px;
+-        max-width: 288px;
+-        margin: 0 16px 25px 16px;
+     }
+ }
+\ No newline at end of file
+diff --git a/blocks/place/__title/place__title.css b/blocks/place/__title/place__title.css
+index 90c2725..3477734 100644
+--- a/blocks/place/__title/place__title.css
++++ b/blocks/place/__title/place__title.css
+@@ -1,5 +1,4 @@
+ .place__title {
+-    max-width: 460px;
+     font-weight: 900;
+     font-size: 72px;
+     line-height: 76px;
+@@ -8,14 +7,12 @@
+ @media screen and (max-width: 1024px) {
+     .place__title {
+-        max-width: 920px;
+         margin-bottom: 30px;
+     }
+ }
+ @media screen and (max-width: 860px) {
+     .place__title {
+-        max-width: 340px;
+         font-size: 42px;
+         line-height: 46px;
+         align-self: end;
+@@ -28,6 +25,5 @@
+         line-height: 35px;
+         margin-left: 16px;
+         margin-bottom: 0px;
+-        max-width: 288px;
+     }
+ }
+\ No newline at end of file
+diff --git a/blocks/place/place.css b/blocks/place/place.css
+index 0c276a3..6cdb410 100644
+--- a/blocks/place/place.css
++++ b/blocks/place/place.css
+@@ -8,31 +8,17 @@
+ .place {
+     display: grid;
+-    grid-template-columns: minmax(auto, 1fr) auto;
++    grid-template-columns: repeat(2, minmax(0, 1fr));
+     grid-auto-rows: auto auto;
+     grid-column-gap: 40px;
+     margin: 92px auto 92px;
+     box-sizing: border-box;
+-    max-width: 984px;
++    max-width: 100%;
+ }
+-@media screen and (max-width: 1024px) {
+-    .place {
+-        max-width: 928px;
+-    }
+-}
+-
+-@media screen and (max-width: 860px) {
+-    .place {
+-        max-width: 720px;
+-        margin: auto;
+-    }
+-}
+-
+-@media screen and (max-width: 529px) {
++@media screen and (max-width: 320px) {
+     .place {
+         grid-template-columns: 1fr;
+-        max-width: 320px;
+         margin: 64px auto 64px;
+     }
+ }
+\ No newline at end of file
