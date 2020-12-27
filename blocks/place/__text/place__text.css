@@ -18,7 +18,5 @@
 @media screen and (max-width: 425px) {
     .place__text {
         line-height: 26.08px;
-        margin: auto;
-        margin: 0 16px 25px 16px;
     }
 }

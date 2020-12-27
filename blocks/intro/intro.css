@@ -4,7 +4,6 @@
 @import url(./__travel-list/intro__travel-list.css);
 @import url(./__list-item/intro__list-item.css);
 @import url(./__list-items/intro__list-items.css);
-
 .intro {
     max-width: 690px;
     justify-content: left;
@@ -24,9 +23,7 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
     .intro {
-        margin: 64px auto 10px auto;
-        max-width: 288px;
-    }
+        margin: 64px 16px 0 16px;
 }

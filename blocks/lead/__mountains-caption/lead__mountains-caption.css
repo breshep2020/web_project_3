@@ -9,23 +9,18 @@
   text-align: left;
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  margin-left: 148px;
 }
 
-@media screen and (max-width: 1024px) {
+
+
+@media screen and (max-width: 768px) {
   .lead__mountains-caption {
-    padding-left: 48px;
+    margin-left: 24px;
   }
 }
 
-@media screen and (max-width: 812px) {
+@media screen and (max-width: 520px) {
   .lead__mountains-caption {
-    padding-left: 24px;
-  }
-}
-
-@media screen and (max-width: 320x) {
-  .lead__mountains-caption {
-    padding-left: 16px;
+    margin-left: 16px;
   }
 }
